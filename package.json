@@ -1,0 +1,8 @@
+{
+  "name": "webpack-commonchunks-test",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jan Wirth <jan.wirth@cinteo.com>",
+  "license": "MIT"
+}
