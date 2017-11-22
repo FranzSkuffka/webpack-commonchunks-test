@@ -9,9 +9,14 @@ module.exports = {
     path: __dirname + '/dist',
     filename: '[name].js'
   },
+  module: {
+    rules: [
+      { test: /\.elm$/, loaders: ['elm-webpack-loader']}
+    ]
+  },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
-      minChunks: 0,
+      minChunks: 2,
       names: 'vendor',
       filename: 'vendor.js'
     })

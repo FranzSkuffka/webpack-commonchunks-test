@@ -6,6 +6,7 @@
   "author": "Jan Wirth <jan.wirth@cinteo.com>",
   "license": "MIT",
   "dependencies": {
+    "elm-webpack-loader": "^4.4.0",
     "lodash": "^4.17.4",
     "webpack": "^3.8.1"
   }
